@@ -1,0 +1,21 @@
+{
+    "httpport": 3000,
+    "checkfreqinsec": 5,
+    "greylistdurationinsec": 600,
+    "networks": {
+        "xdai": {
+            "rpc":"https://rpc.xdaichain.com",
+            "explorer": "https://blockscout.com/poa/xdai",
+            "privateKey": "",
+            "tokens":{
+                "xdai": {
+                    "payoutamount": 0.01
+                },
+                "testErc20": {
+                    "payoutamount": 0.01,
+                    "tokenAddress": "0xc82c13004c06E4c627cF2518612A55CE7a3Db699"
+                }
+            }
+        }
+    }
+}
